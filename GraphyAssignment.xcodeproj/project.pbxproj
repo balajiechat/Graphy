@@ -3,20 +3,48 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		29913C94246097870082378C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29913C93246097870082378C /* AppDelegate.swift */; };
 		29913C96246097870082378C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29913C95246097870082378C /* SceneDelegate.swift */; };
-		29913C98246097870082378C /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29913C97246097870082378C /* FirstViewController.swift */; };
-		29913C9A246097870082378C /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29913C99246097870082378C /* SecondViewController.swift */; };
 		29913C9D246097870082378C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29913C9B246097870082378C /* Main.storyboard */; };
 		29913CA0246097870082378C /* GraphyAssignment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 29913C9E246097870082378C /* GraphyAssignment.xcdatamodeld */; };
 		29913CA2246097880082378C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29913CA1246097880082378C /* Assets.xcassets */; };
 		29913CA5246097880082378C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29913CA3246097880082378C /* LaunchScreen.storyboard */; };
 		29913CB0246097880082378C /* GraphyAssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29913CAF246097880082378C /* GraphyAssignmentTests.swift */; };
 		29913CBB246097880082378C /* GraphyAssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29913CBA246097880082378C /* GraphyAssignmentUITests.swift */; };
+		29913CEA246099BF0082378C /* GAHomeConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29913CCE246099BF0082378C /* GAHomeConfigurator.swift */; };
+		29913CEB246099BF0082378C /* GAHomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29913CCF246099BF0082378C /* GAHomePresenter.swift */; };
+		29913CEC246099BF0082378C /* GAHomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29913CD0246099BF0082378C /* GAHomeRouter.swift */; };
+		29913CED246099BF0082378C /* GAHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29913CD2246099BF0082378C /* GAHome.swift */; };
+		29913CEE246099BF0082378C /* GAHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29913CD4246099BF0082378C /* GAHomeVC.swift */; };
+		29913CEF246099BF0082378C /* GAHomeSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29913CD7246099BF0082378C /* GAHomeSB.storyboard */; };
+		29913CF0246099BF0082378C /* GAHomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29913CD9246099BF0082378C /* GAHomeInteractor.swift */; };
+		29913CF1246099BF0082378C /* GAProfileConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29913CDD246099BF0082378C /* GAProfileConfigurator.swift */; };
+		29913CF2246099BF0082378C /* GAProfilePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29913CDE246099BF0082378C /* GAProfilePresenter.swift */; };
+		29913CF3246099BF0082378C /* GAProfileRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29913CDF246099BF0082378C /* GAProfileRouter.swift */; };
+		29913CF4246099BF0082378C /* GAProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29913CE1246099BF0082378C /* GAProfile.swift */; };
+		29913CF5246099BF0082378C /* GAProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29913CE3246099BF0082378C /* GAProfileVC.swift */; };
+		29913CF6246099BF0082378C /* GAProfileSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29913CE6246099BF0082378C /* GAProfileSB.storyboard */; };
+		29913CF7246099BF0082378C /* GAProfileInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29913CE8246099BF0082378C /* GAProfileInteractor.swift */; };
+		29913CF92461702C0082378C /* GADataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29913CF82461702C0082378C /* GADataManager.swift */; };
+		29913CFB246170BB0082378C /* GAHomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29913CFA246170BB0082378C /* GAHomeViewModel.swift */; };
+		29913CFD246182F10082378C /* GAHomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29913CFC246182F10082378C /* GAHomeCell.swift */; };
+		29913D00246185CE0082378C /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 29913CFF246185CE0082378C /* SDWebImage */; };
+		29913D022461D5AF0082378C /* GACellAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29913D012461D5AF0082378C /* GACellAnimator.swift */; };
+		29913D0824629F4C0082378C /* GAProfileImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29913D0724629F4C0082378C /* GAProfileImageCell.swift */; };
+		29913D1A2462B8B80082378C /* GAVideoPlayerPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29913D0D2462B8B80082378C /* GAVideoPlayerPresenter.swift */; };
+		29913D1B2462B8B80082378C /* GAVideoPlayerConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29913D0E2462B8B80082378C /* GAVideoPlayerConfigurator.swift */; };
+		29913D1C2462B8B80082378C /* GAVideoPlayerRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29913D0F2462B8B80082378C /* GAVideoPlayerRouter.swift */; };
+		29913D1E2462B8B80082378C /* GAVideoPlayerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29913D132462B8B80082378C /* GAVideoPlayerVC.swift */; };
+		29913D1F2462B8B80082378C /* GAVideoPlayerSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29913D162462B8B80082378C /* GAVideoPlayerSB.storyboard */; };
+		29913D202462B8B80082378C /* GAVideoPlayerInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29913D182462B8B80082378C /* GAVideoPlayerInteractor.swift */; };
+		29913D222462B93D0082378C /* GACustomPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29913D212462B93D0082378C /* GACustomPlayerView.swift */; };
+		29913D2424630BAB0082378C /* GAVerticalPaging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29913D2324630BAB0082378C /* GAVerticalPaging.swift */; };
+		29913D2624646D810082378C /* GAVideoDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29913D2524646D810082378C /* GAVideoDataManager.swift */; };
+		29913D28246492460082378C /* GACoreDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29913D27246492460082378C /* GACoreDataModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +68,6 @@
 		29913C90246097870082378C /* GraphyAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GraphyAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29913C93246097870082378C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		29913C95246097870082378C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		29913C97246097870082378C /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		29913C99246097870082378C /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		29913C9C246097870082378C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		29913C9F246097870082378C /* GraphyAssignment.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GraphyAssignment.xcdatamodel; sourceTree = "<group>"; };
 		29913CA1246097880082378C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +79,35 @@
 		29913CB6246097880082378C /* GraphyAssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GraphyAssignmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		29913CBA246097880082378C /* GraphyAssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphyAssignmentUITests.swift; sourceTree = "<group>"; };
 		29913CBC246097880082378C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29913CCE246099BF0082378C /* GAHomeConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GAHomeConfigurator.swift; sourceTree = "<group>"; };
+		29913CCF246099BF0082378C /* GAHomePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GAHomePresenter.swift; sourceTree = "<group>"; };
+		29913CD0246099BF0082378C /* GAHomeRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GAHomeRouter.swift; sourceTree = "<group>"; };
+		29913CD2246099BF0082378C /* GAHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GAHome.swift; sourceTree = "<group>"; };
+		29913CD4246099BF0082378C /* GAHomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GAHomeVC.swift; sourceTree = "<group>"; };
+		29913CD7246099BF0082378C /* GAHomeSB.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GAHomeSB.storyboard; sourceTree = "<group>"; };
+		29913CD9246099BF0082378C /* GAHomeInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GAHomeInteractor.swift; sourceTree = "<group>"; };
+		29913CDD246099BF0082378C /* GAProfileConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GAProfileConfigurator.swift; sourceTree = "<group>"; };
+		29913CDE246099BF0082378C /* GAProfilePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GAProfilePresenter.swift; sourceTree = "<group>"; };
+		29913CDF246099BF0082378C /* GAProfileRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GAProfileRouter.swift; sourceTree = "<group>"; };
+		29913CE1246099BF0082378C /* GAProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GAProfile.swift; sourceTree = "<group>"; };
+		29913CE3246099BF0082378C /* GAProfileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GAProfileVC.swift; sourceTree = "<group>"; };
+		29913CE6246099BF0082378C /* GAProfileSB.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GAProfileSB.storyboard; sourceTree = "<group>"; };
+		29913CE8246099BF0082378C /* GAProfileInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GAProfileInteractor.swift; sourceTree = "<group>"; };
+		29913CF82461702C0082378C /* GADataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GADataManager.swift; sourceTree = "<group>"; };
+		29913CFA246170BB0082378C /* GAHomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAHomeViewModel.swift; sourceTree = "<group>"; };
+		29913CFC246182F10082378C /* GAHomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAHomeCell.swift; sourceTree = "<group>"; };
+		29913D012461D5AF0082378C /* GACellAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GACellAnimator.swift; sourceTree = "<group>"; };
+		29913D0724629F4C0082378C /* GAProfileImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAProfileImageCell.swift; sourceTree = "<group>"; };
+		29913D0D2462B8B80082378C /* GAVideoPlayerPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GAVideoPlayerPresenter.swift; sourceTree = "<group>"; };
+		29913D0E2462B8B80082378C /* GAVideoPlayerConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GAVideoPlayerConfigurator.swift; sourceTree = "<group>"; };
+		29913D0F2462B8B80082378C /* GAVideoPlayerRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GAVideoPlayerRouter.swift; sourceTree = "<group>"; };
+		29913D132462B8B80082378C /* GAVideoPlayerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GAVideoPlayerVC.swift; sourceTree = "<group>"; };
+		29913D162462B8B80082378C /* GAVideoPlayerSB.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GAVideoPlayerSB.storyboard; sourceTree = "<group>"; };
+		29913D182462B8B80082378C /* GAVideoPlayerInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GAVideoPlayerInteractor.swift; sourceTree = "<group>"; };
+		29913D212462B93D0082378C /* GACustomPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GACustomPlayerView.swift; sourceTree = "<group>"; };
+		29913D2324630BAB0082378C /* GAVerticalPaging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAVerticalPaging.swift; sourceTree = "<group>"; };
+		29913D2524646D810082378C /* GAVideoDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAVideoDataManager.swift; sourceTree = "<group>"; };
+		29913D27246492460082378C /* GACoreDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GACoreDataModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +115,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29913D00246185CE0082378C /* SDWebImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,10 +159,11 @@
 		29913C92246097870082378C /* GraphyAssignment */ = {
 			isa = PBXGroup;
 			children = (
+				29913D0B2462B8B80082378C /* GAVideoPlayer */,
+				29913CCC246099BF0082378C /* GAHome */,
+				29913CDB246099BF0082378C /* GAProfile */,
 				29913C93246097870082378C /* AppDelegate.swift */,
 				29913C95246097870082378C /* SceneDelegate.swift */,
-				29913C97246097870082378C /* FirstViewController.swift */,
-				29913C99246097870082378C /* SecondViewController.swift */,
 				29913C9B246097870082378C /* Main.storyboard */,
 				29913CA1246097880082378C /* Assets.xcassets */,
 				29913CA3246097880082378C /* LaunchScreen.storyboard */,
@@ -134,6 +191,208 @@
 			path = GraphyAssignmentUITests;
 			sourceTree = "<group>";
 		};
+		29913CCC246099BF0082378C /* GAHome */ = {
+			isa = PBXGroup;
+			children = (
+				29913CCD246099BF0082378C /* CPR */,
+				29913CD1246099BF0082378C /* Models */,
+				29913CD3246099BF0082378C /* ViewControllers */,
+				29913CD5246099BF0082378C /* DataManagers */,
+				29913CD6246099BF0082378C /* UserInterface */,
+				29913CD8246099BF0082378C /* Interactors */,
+				29913CDA246099BF0082378C /* Views */,
+			);
+			path = GAHome;
+			sourceTree = "<group>";
+		};
+		29913CCD246099BF0082378C /* CPR */ = {
+			isa = PBXGroup;
+			children = (
+				29913CCE246099BF0082378C /* GAHomeConfigurator.swift */,
+				29913CCF246099BF0082378C /* GAHomePresenter.swift */,
+				29913CD0246099BF0082378C /* GAHomeRouter.swift */,
+			);
+			path = CPR;
+			sourceTree = "<group>";
+		};
+		29913CD1246099BF0082378C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				29913CD2246099BF0082378C /* GAHome.swift */,
+				29913D27246492460082378C /* GACoreDataModel.swift */,
+				29913CFA246170BB0082378C /* GAHomeViewModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		29913CD3246099BF0082378C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				29913CD4246099BF0082378C /* GAHomeVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		29913CD5246099BF0082378C /* DataManagers */ = {
+			isa = PBXGroup;
+			children = (
+				29913CF82461702C0082378C /* GADataManager.swift */,
+			);
+			path = DataManagers;
+			sourceTree = "<group>";
+		};
+		29913CD6246099BF0082378C /* UserInterface */ = {
+			isa = PBXGroup;
+			children = (
+				29913CD7246099BF0082378C /* GAHomeSB.storyboard */,
+			);
+			path = UserInterface;
+			sourceTree = "<group>";
+		};
+		29913CD8246099BF0082378C /* Interactors */ = {
+			isa = PBXGroup;
+			children = (
+				29913CD9246099BF0082378C /* GAHomeInteractor.swift */,
+			);
+			path = Interactors;
+			sourceTree = "<group>";
+		};
+		29913CDA246099BF0082378C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				29913CFC246182F10082378C /* GAHomeCell.swift */,
+				29913D012461D5AF0082378C /* GACellAnimator.swift */,
+				29913D2324630BAB0082378C /* GAVerticalPaging.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		29913CDB246099BF0082378C /* GAProfile */ = {
+			isa = PBXGroup;
+			children = (
+				29913CDC246099BF0082378C /* CPR */,
+				29913CE0246099BF0082378C /* Models */,
+				29913CE2246099BF0082378C /* ViewControllers */,
+				29913CE5246099BF0082378C /* UserInterface */,
+				29913CE7246099BF0082378C /* Interactors */,
+				29913CE9246099BF0082378C /* Views */,
+			);
+			path = GAProfile;
+			sourceTree = "<group>";
+		};
+		29913CDC246099BF0082378C /* CPR */ = {
+			isa = PBXGroup;
+			children = (
+				29913CDD246099BF0082378C /* GAProfileConfigurator.swift */,
+				29913CDE246099BF0082378C /* GAProfilePresenter.swift */,
+				29913CDF246099BF0082378C /* GAProfileRouter.swift */,
+			);
+			path = CPR;
+			sourceTree = "<group>";
+		};
+		29913CE0246099BF0082378C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				29913CE1246099BF0082378C /* GAProfile.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		29913CE2246099BF0082378C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				29913CE3246099BF0082378C /* GAProfileVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		29913CE5246099BF0082378C /* UserInterface */ = {
+			isa = PBXGroup;
+			children = (
+				29913CE6246099BF0082378C /* GAProfileSB.storyboard */,
+			);
+			path = UserInterface;
+			sourceTree = "<group>";
+		};
+		29913CE7246099BF0082378C /* Interactors */ = {
+			isa = PBXGroup;
+			children = (
+				29913CE8246099BF0082378C /* GAProfileInteractor.swift */,
+			);
+			path = Interactors;
+			sourceTree = "<group>";
+		};
+		29913CE9246099BF0082378C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				29913D0724629F4C0082378C /* GAProfileImageCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		29913D0B2462B8B80082378C /* GAVideoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				29913D0C2462B8B80082378C /* CPR */,
+				29913D122462B8B80082378C /* ViewControllers */,
+				29913D142462B8B80082378C /* DataManagers */,
+				29913D152462B8B80082378C /* UserInterface */,
+				29913D172462B8B80082378C /* Interactors */,
+				29913D192462B8B80082378C /* Views */,
+			);
+			path = GAVideoPlayer;
+			sourceTree = "<group>";
+		};
+		29913D0C2462B8B80082378C /* CPR */ = {
+			isa = PBXGroup;
+			children = (
+				29913D0D2462B8B80082378C /* GAVideoPlayerPresenter.swift */,
+				29913D0E2462B8B80082378C /* GAVideoPlayerConfigurator.swift */,
+				29913D0F2462B8B80082378C /* GAVideoPlayerRouter.swift */,
+			);
+			path = CPR;
+			sourceTree = "<group>";
+		};
+		29913D122462B8B80082378C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				29913D132462B8B80082378C /* GAVideoPlayerVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		29913D142462B8B80082378C /* DataManagers */ = {
+			isa = PBXGroup;
+			children = (
+				29913D2524646D810082378C /* GAVideoDataManager.swift */,
+			);
+			path = DataManagers;
+			sourceTree = "<group>";
+		};
+		29913D152462B8B80082378C /* UserInterface */ = {
+			isa = PBXGroup;
+			children = (
+				29913D162462B8B80082378C /* GAVideoPlayerSB.storyboard */,
+			);
+			path = UserInterface;
+			sourceTree = "<group>";
+		};
+		29913D172462B8B80082378C /* Interactors */ = {
+			isa = PBXGroup;
+			children = (
+				29913D182462B8B80082378C /* GAVideoPlayerInteractor.swift */,
+			);
+			path = Interactors;
+			sourceTree = "<group>";
+		};
+		29913D192462B8B80082378C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				29913D212462B93D0082378C /* GACustomPlayerView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -150,6 +409,9 @@
 			dependencies = (
 			);
 			name = GraphyAssignment;
+			packageProductDependencies = (
+				29913CFF246185CE0082378C /* SDWebImage */,
+			);
 			productName = GraphyAssignment;
 			productReference = 29913C90246097870082378C /* GraphyAssignment.app */;
 			productType = "com.apple.product-type.application";
@@ -222,6 +484,9 @@
 				Base,
 			);
 			mainGroup = 29913C87246097860082378C;
+			packageReferences = (
+				29913CFE246185CE0082378C /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
 			productRefGroup = 29913C91246097870082378C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -238,8 +503,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29913D1F2462B8B80082378C /* GAVideoPlayerSB.storyboard in Resources */,
+				29913CEF246099BF0082378C /* GAHomeSB.storyboard in Resources */,
 				29913CA5246097880082378C /* LaunchScreen.storyboard in Resources */,
 				29913CA2246097880082378C /* Assets.xcassets in Resources */,
+				29913CF6246099BF0082378C /* GAProfileSB.storyboard in Resources */,
 				29913C9D246097870082378C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,10 +534,34 @@
 			buildActionMask = 2147483647;
 			files = (
 				29913CA0246097870082378C /* GraphyAssignment.xcdatamodeld in Sources */,
-				29913C9A246097870082378C /* SecondViewController.swift in Sources */,
-				29913C98246097870082378C /* FirstViewController.swift in Sources */,
+				29913CEC246099BF0082378C /* GAHomeRouter.swift in Sources */,
+				29913D022461D5AF0082378C /* GACellAnimator.swift in Sources */,
+				29913CFD246182F10082378C /* GAHomeCell.swift in Sources */,
+				29913CF4246099BF0082378C /* GAProfile.swift in Sources */,
+				29913CED246099BF0082378C /* GAHome.swift in Sources */,
+				29913D0824629F4C0082378C /* GAProfileImageCell.swift in Sources */,
+				29913CEE246099BF0082378C /* GAHomeVC.swift in Sources */,
+				29913CF7246099BF0082378C /* GAProfileInteractor.swift in Sources */,
+				29913CEB246099BF0082378C /* GAHomePresenter.swift in Sources */,
+				29913CF5246099BF0082378C /* GAProfileVC.swift in Sources */,
+				29913D1E2462B8B80082378C /* GAVideoPlayerVC.swift in Sources */,
+				29913D28246492460082378C /* GACoreDataModel.swift in Sources */,
+				29913D1B2462B8B80082378C /* GAVideoPlayerConfigurator.swift in Sources */,
+				29913D2424630BAB0082378C /* GAVerticalPaging.swift in Sources */,
 				29913C94246097870082378C /* AppDelegate.swift in Sources */,
 				29913C96246097870082378C /* SceneDelegate.swift in Sources */,
+				29913CEA246099BF0082378C /* GAHomeConfigurator.swift in Sources */,
+				29913CF92461702C0082378C /* GADataManager.swift in Sources */,
+				29913D222462B93D0082378C /* GACustomPlayerView.swift in Sources */,
+				29913CF1246099BF0082378C /* GAProfileConfigurator.swift in Sources */,
+				29913CF2246099BF0082378C /* GAProfilePresenter.swift in Sources */,
+				29913D2624646D810082378C /* GAVideoDataManager.swift in Sources */,
+				29913CF3246099BF0082378C /* GAProfileRouter.swift in Sources */,
+				29913D202462B8B80082378C /* GAVideoPlayerInteractor.swift in Sources */,
+				29913CF0246099BF0082378C /* GAHomeInteractor.swift in Sources */,
+				29913D1C2462B8B80082378C /* GAVideoPlayerRouter.swift in Sources */,
+				29913D1A2462B8B80082378C /* GAVideoPlayerPresenter.swift in Sources */,
+				29913CFB246170BB0082378C /* GAHomeViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,14 +734,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 466YHJ5Q96;
 				INFOPLIST_FILE = GraphyAssignment/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = GA.GraphyAssignment;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cleartrip.iphoneapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Cleartrip_iOS_Distribution;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -459,14 +754,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 466YHJ5Q96;
 				INFOPLIST_FILE = GraphyAssignment/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = GA.GraphyAssignment;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cleartrip.iphoneapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Cleartrip_iOS_Distribution;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -592,6 +890,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		29913CFE246185CE0082378C /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		29913CFF246185CE0082378C /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 29913CFE246185CE0082378C /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		29913C9E246097870082378C /* GraphyAssignment.xcdatamodeld */ = {
